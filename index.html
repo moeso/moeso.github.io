@@ -1,1 +1,166 @@
-testttt
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>銀座 百楽</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.4");</script>
+<script type="text/javascript">
+$(function() {
+ 
+    //ページ内スクロール
+    $(".btn").click(function () {
+        var i = $(".btn").index(this)
+        var p = $(".content").eq(i).offset().top;
+        $('html,body').animate({ scrollTop: p }, 'fast');
+        return false;
+    });
+ 
+    //ページ上部へ戻る
+    $(".btn_top").click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 'fast');
+        return false;
+    });
+ 
+});
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+
+<div class="menu">
+	<div class="btn_top"><img src="img/logo.png"></div>
+	<div class="btn"><img src="img/about.png"></div>
+	<div class="btn"><img src="img/ryouri.png"></div>
+	<div class="btn"><img src="img/tenpo.png"></div>
+	<br/>
+<a href="http://blog.goo.ne.jp/hyakuraku_okami" target="_blank"><img src="img/nikki.png"></a>
+	
+</div>
+
+<div class="main">
+
+<div class="textContent">
+<div class="fukusuke">
+	<img src="img/hukusuke.png">
+	</div>
+</div>
+
+
+<div class="blank"></div>
+<div class="blank"></div>
+
+<div class="content"></div>
+<div class="photoContent">
+	<img src="img/hyakuraku.png">
+	</div>
+
+<div class="blank"></div>	
+
+<div class="content"></div>
+
+<br/><br/>
+
+<div class="textContent">
+ <div class="textBox">
+  <p><b>
+  ご昼食・ご夕食のコース</b><br/>　
+<br/>お昼限定ミニコース<br/>5,000円（２名様より前日までに要予約）<br/>
+<br/>15,000円のコース<br/>
+<br/>21,000円のコース<br/>
+<br/>25,000円のコース<br/>
+<br/>顔合わせ・結納コース<br/>
+8000円
+</p>
+</div>
+<div class="textTitle">
+	<img src="img/ryouri_title.png">
+</div>						
+</div>
+
+<div class="photoContent">
+	<img src="img/dish1.png">
+	<img src="img/dish2.png">
+	</div>
+<div class="textContent">
+<p>
+<br/>
+<b>お飲み物</b><br/>
+<br/>
+生ビール　900円<br/> (サントリープレミアムモルツマスタードリーム)<br/>
+<br/>
+熱燗　１合　1,000円 ～<br/>
+<br/>
+冷酒　１合　1,200円 ～<br/>
+<br/>
+焼酎（芋･麦･米）700円 ～<br/>
+<br/>
+梅酒　800円<br/>
+<br/>
+すだち酒　800円<br/>
+<br/>
+ジャワティー　800円<br/>
+<br/>
+ウーロン茶　800円<br/>
+<br/>
+ワイン・シャンパーニュのご用意もございます<br/></p>
+<br/>
+<hr size="1px" width="390px" color="#4d4d4d">
+<br/>
+<p>
+・別途サービス料10％・消費税8％頂戴します。<br/>
+<br/>
+・昼食時でのクレジットカードのご使用は<br/>
+　ご遠慮いただいておりますのでご了承くださいませ。
+</p>
+</div>
+
+<div class="photoContent">
+	<img src="img/oyomesan.png">
+</div>
+<div class="textContent">
+	<p>当店オリジナルのお土産をご用意できます。徳島の伝統菓子　お嫁さんのお菓子は、８箱入りで2500円（税抜き）。ご注文は予約頂ければ幸いです。</p>
+</div>
+
+<div class="blank"></div>
+
+<div class="content"></div>
+<div class="photoContent">
+	<img src="img/tenpo_map.png">
+	<a href="map.pdf" target="_blank"><img src="img/print.png"></a>
+</div>
+
+<div class="textContent">
+<br/>
+<br/>
+<p>
+〒104 - 0061<br/>
+東京都中央区銀座６丁目７番18号デイム銀座地下１階<br/>
+<br/>
+電話　03-3289-5060<br/>
+<br/>
+営業時間　12時～13時30分（LO）<br/>
+　　　　　17時30分～22時（LO）<br/>
+<br/>
+定休日　日曜日</p>
+<br/>
+<br/>
+</div>
+
+<div class="photoContent">
+	<img src="img/syoukai.png">
+	<img src="img/syoukai03.jpg">
+	<img src="img/syoukai06.jpg">
+	<img src="img/syoukai07.jpg">
+</div>
+
+<div class="blank"></div>
+
+
+</div>
+</div>
+
+</body>
+</html>
