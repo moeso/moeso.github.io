@@ -67,3 +67,20 @@ p{
 	cursor: pointer;
 }
 
+.moving{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.moving_text{
+	width: 378px;
+	margin: 0 auto;
+	color: #666666;
+	letter-spacing: 1px;
+	line-height: 1.7rem;
+}
+
+a{
+	color: #666666;
+}
+
