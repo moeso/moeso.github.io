@@ -79,6 +79,9 @@ a:link, a:visited, a:hover, a:active {
 	height: 800px;
 	color: #4D4D4D;
     }
+.clear{
+	clear: both;
+}
 
 .tenpo{
     writing-mode: vertical-rl;
