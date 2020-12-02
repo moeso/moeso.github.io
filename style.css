@@ -1,9 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
 
 body{
 	background-image:url(img/paper.jpg);
-	font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	font-family: 'Noto Serif JP', serif;
 }
+
+
 
 p{
 	color: #4D4D4D;
@@ -88,6 +91,7 @@ a:link, a:visited, a:hover, a:active {
 	float: left;
 	font-size: 16px;
 	line-height: 30px;
+	height: 320px;
 	color: #4D4D4D;
     }
 
